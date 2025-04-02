@@ -1,0 +1,3 @@
+- name: ping
+  hosts: web
+  tasks: #task=module=collection
