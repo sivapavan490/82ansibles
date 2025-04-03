@@ -5,5 +5,7 @@
   - filevariables.yaml
 
   tasks:
-  - name: 
-
+  - name: print the play level variables
+    ansible.builtin.debug:
+      msg: "course is {{ course }},duration is {{duration}},trainer is {{trainer}}"
+      
