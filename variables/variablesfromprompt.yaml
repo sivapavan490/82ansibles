@@ -1,0 +1,17 @@
+- name: play level variables
+  hosts: local
+  connection: local
+  vars_prompt: # here variable values are given from prompt
+  - name: course # here course is variable name
+    prompt: please enter the course name # what ever we enter in the prompt in cmd line.that value will be assigned to variable
+    private : false # others can visible the value
+  - name: duration
+    prompt: please enter the course name # what ever we enter in the prompt in cmd line.that value will be assigned to variable
+  - name: 
+    prompt: please enter the course name # what ever we enter in the prompt in cmd line.that value will be assigned to variable  
+  
+  tasks:
+  - name: print the play level variables
+    ansible.builtin.debug:
+      msg: "course is {{ course }},duration is {{duration}},trainer is {{trainer}}"
+      
