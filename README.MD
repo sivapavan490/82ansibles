@@ -19,4 +19,7 @@ in ansible group of groups will be represnted as like below
 
 [expense:childern]
 front end 
+
 back end
+
+ansible-playbook -i inventory.ini playbookfilename
