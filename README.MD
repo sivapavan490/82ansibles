@@ -23,3 +23,5 @@ front end
 back end
 
 ansible-playbook -i inventory.ini playbookfilename
+
+Task level variables can only acess in tasks.Task level variables can override play level variables
