@@ -28,3 +28,8 @@ Task level variables can only acess in tasks.Task level variables can override p
 
 Generally in ansible variables also give in files.those file will refer in playbook.
 you can see that playbook in this git location :- https://github.com/sivapavan490/82ansibles/blob/7321b650cf69d9daf22a7e59502060514323aa76/variables/var-files.yaml
+
+
+variable prefernces.
+
+1) command level 2) Task level 3) Prompt level 5) play level 6) Inventory level 
