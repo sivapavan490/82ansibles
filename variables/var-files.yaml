@@ -1,0 +1,9 @@
+- name: refering variables from files
+  hosts: local
+  connection: local
+  vars_files:
+  - filevariables.yaml
+
+  tasks:
+  - name: 
+
