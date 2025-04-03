@@ -7,7 +7,7 @@
     private : false # others can visible the value
   - name: duration
     prompt: please enter the course name # what ever we enter in the prompt in cmd line.that value will be assigned to variable
-  - name: 
+  - name: trainer
     prompt: please enter the course name # what ever we enter in the prompt in cmd line.that value will be assigned to variable  
   
   tasks:
