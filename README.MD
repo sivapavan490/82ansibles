@@ -32,4 +32,4 @@ you can see that playbook in this git location :- https://github.com/sivapavan49
 
 variable prefernces.
 
-1) command level 2) Task level 3) Prompt level 5) play level 6) Inventory level 
+1) command level 2) Task level 3)  Files 4) Prompt level 5) play level 6) Inventory level 7) Roles
